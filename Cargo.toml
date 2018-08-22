@@ -1,0 +1,10 @@
+[package]
+name = "libspine-sys"
+version = "0.1.0"
+authors = ["reeFridge <reefridgerator@gmail.com>"]
+links = "spine-c"
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0.26.3"
+cmake = "0.1.32"
